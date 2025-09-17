@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+  <title>1st web page</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Web Page Template</title>
@@ -15,17 +16,40 @@
 
 <body>
     <!-- Navbar gets injected here -->
-    <div id="nav-placeholder"></div>
+   
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">Home</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="indexexample.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.w3schools.com/bootstrap5/bootstrap_navbar.php">Link 2</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link 3</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>    
 
     <!-- Place Main Content here -->
 <div class="container p-5 my-5 bg-primary text-white">
+  <div class="container-fluid">
    <h1>Hello, GitHub!</h1>
     <p>This is my first web page using version control with Git and GitHub. I forked a repository to create this. A fork
      in Git is a personal copy of another user's repository that allows you to make changes without affecting the
      original project.</p>
   </div>
   
-  <div class="container p-5 my-5 bg-primary text-white">
+  <div class="container p-5 my-5 bg-secondary text-white">
     <h2>Resorces</h2>
       <a href="https://www.w3schools.com/html/default.asp">HTML Tutorial</a>
       <a href="https://www.w3schools.com/css/default.asp">CSS Tutorial</a>
@@ -55,7 +79,7 @@
     </div><br>
 
     <div class="container mt-3">
-      <h2>Mountains</h2>
+      <h2></div>Mountains</h2>
       <p>Image of Mountains</p>
       <img src="images/mountains.jpg" alt="mountains" class="mx-auto d-block" style="width:50%">
     </div><br>
